@@ -15,6 +15,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 img, picture, video, canvas, svg {
@@ -32,4 +35,23 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #root, #__next {
   isolation: isolate;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+  margin: 0.5% 10%;
+  font-size: 2.0rem;
+  align-items: center;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color:aquamarine;
 }
