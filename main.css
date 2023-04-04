@@ -40,12 +40,15 @@ p, h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.5rem 10%;
+  padding: 1.5rem 5%;
   background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+}
+
+.logo {
+  cursor: default;
 }
 
 .navbar a {
@@ -53,11 +56,44 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 1.8rem;
   color: white;
   font-weight: 500;
-  margin-left: 5rem;
+  margin-right: 5.5rem;
   transition: .3s;
 }
 
 .navbar a:hover,
 .navbar a.active {
   color:chartreuse;
+}
+
+.btn-chiama {
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 3.5em;
+  font-size: 1.8rem;
+  background: violet;
+  border-radius: 2.5rem;
+  border: 2px solid rgb(111, 76, 111);
+  font-weight: 500;
+  transition: .3s;
+}
+
+.btn-chiama:hover {
+  color:rgb(112, 203, 51) ;
+  background: transparent;
+}
+
+.img--home {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(images/un_fiore_sulle_mani.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
