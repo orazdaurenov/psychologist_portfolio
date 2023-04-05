@@ -96,4 +96,11 @@ p, h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color:darkolivegreen;
 }
