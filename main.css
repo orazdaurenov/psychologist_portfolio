@@ -101,9 +101,25 @@ width: 100%;
   background: url(images/un_fiore_sulle_mani.jpg);
   background-size: cover;
   background-position: center;
-  justify-content: left;
 }
 
 .home-content {
-  
+  font-size: 2rem;
+  margin-left: 3em;
+ justify-content: center;
+ align-items: center;
+}
+
+/*Menu Icon*/
+
+#menu-icon {
+  font-size: 4rem;
+  color: aliceblue;
+  display: none;
+}
+
+@media screen and (max-width:992px) {
+ .header {
+  padding: 1.25rem 4%;
+ } 
 }
